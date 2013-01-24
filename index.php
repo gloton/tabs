@@ -169,30 +169,6 @@ function removeName(el, name) {
 //]]></script>
 </head>
 <body>
-
-<div class="tabBox" style="float:right;width:24em;">
-  <div class="tabArea">
-    <a class="tab" href="news.html" target="tabIframe1">News</a>
-    <a class="tab" href="reviews.html" target="tabIframe1">Reviews</a>
-    <a class="tab" href="links.html" target="tabIframe1">Links</a>
-  </div>
-  <div class="tabMain">
-    <div class="tabIframeWrapper"><iframe class="tabContent" name="tabIframe1" src="news.html" marginheight="8" marginwidth="8" frameborder="0" style="height:18ex;"></iframe></div>
-  </div>
-</div>
-
-<div id="demoBox">
-
-<h3>Tabs Demo</h3>
-
-<p>This page contains two separate tabbed displays and several sample content
-pages. Use your browser's <code>View Source</code> option to see the full
-source code.</p>
-
-</div>
-
-<p></p>
-
 <div class="tabBox" style="clear:both;">
   <div class="tabArea">
     <a class="tab" href="tabs-paginas/action.html" target="tabIframe2">Action</a>
@@ -203,7 +179,7 @@ source code.</p>
   </div>
   <div class="tabMain">
     <h4 id="title">Top Picks</h4>
-    <div class="tabIframeWrapper"><iframe class="tabContent" name="tabIframe2" src="action.html" marginheight="8" marginwidth="8" frameborder="0"></iframe></div>
+    <div class="tabIframeWrapper"><iframe class="tabContent" name="tabIframe2" src="tabs-paginas/action.html" marginheight="8" marginwidth="8" frameborder="0"></iframe></div>
   </div>
 </div>
 
