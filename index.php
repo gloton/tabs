@@ -17,7 +17,11 @@
 /******************************************************************************
 * Additional styles.                                                          *
 ******************************************************************************/
-
+body {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
 #tabs-mev {
 	width: 760px;
 }
@@ -87,13 +91,13 @@ iframe.tabContent {
 <body>
 <div id="tabs-mev" class="tabBox" style="clear:both;">
 	<div class="tabArea">
-		<a class="tab" href="tabs-paginas/action.html" target="tabIframe2">Remates</a>
-		<a class="tab" href="tabs-paginas/simulation.html" target="tabIframe2">Venta Directa</a>
-		<a class="tab" href="tabs-paginas/sports.html" target="tabIframe2">Remate On-Line</a>
+		<a class="tab" href="tabs-paginas/tab-remates.html" target="tabIframe2">Remates</a>
+		<a class="tab" href="tabs-paginas/tab-venta-directa.html" target="tabIframe2">Venta Directa</a>
+		<a class="tab" href="tabs-paginas/tab-remate-online.html" target="tabIframe2">Remate On-Line</a>
 	</div>
 	<div class="tabMain">
 	<div class="tabIframeWrapper">
-		<iframe class="tabContent" name="tabIframe2" src="tabs-paginas/action.html" marginheight="8" marginwidth="8" frameborder="0"></iframe>
+		<iframe class="tabContent" name="tabIframe2" src="tabs-paginas/tab-remates.html" marginheight="8" marginwidth="8" frameborder="0"></iframe>
 	</div>
 	</div>
 </div>
